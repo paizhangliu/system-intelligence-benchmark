@@ -1,6 +1,6 @@
 services:
   default:
-    image: sysintelligence/cs423-grader:v1
+    image: sysintelligence/cs423-grader:v2
     working_dir: /workspace
     entrypoint: ["bash", "-lc"]
     command: ["sleep infinity"]
